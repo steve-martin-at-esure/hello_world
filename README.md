@@ -2,4 +2,4 @@
 My first GitHub repo
 
 
-This is my first chnage, made directly to the master branch.
+This is my first change, made directly to the master branch.
