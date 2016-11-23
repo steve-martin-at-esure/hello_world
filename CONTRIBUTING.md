@@ -1,6 +1,6 @@
 # How to contribute
 
-This is a private Git repository and only esure's Digital Apps team is permitted to change this Digital App. If you have any suggestions or if you find an issue then please contact the team. Please see AUTHORS.md for details of the team.
+This is a private Git repository and only esure's Digital Apps team is permitted to change this Digital App. If you have any suggestions or if you find an issue then please contact the team. Please see [AUTHORS.md](AUTHORS.md) for details of the team.
 
 
 ## The Agile Approach
