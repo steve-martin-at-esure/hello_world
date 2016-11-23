@@ -2,34 +2,36 @@
 
 This README.md file describes how this Digital App is being tested, outlining both automation scripts and manual tests.
 
-## Coding Standards and Static Code Analysis
+## Automated Non-Functional Testing
 
-Although some coding standards issues will be picked up as part of the peer review process we should be looking to put most of the 'heavy lifting' into automation scripts.
+The following is a list of non-functional tests that ensures that Coding Standards, Static Code Analysis, Performance and Security checks have been performed on the Digital App code base.
 
-### Coverage
-ADD DETAILS HERE ON THE SCOPE AND COVERAGE OF THIS TYPE OF TEST
+### Scope
+* Coding Standards / Static Code Analysis
+* Performance
+* Security
 
-### Scripts/Tools
-ADD DETAILS HERE ABOUT WHAT TOOLS ARE USED FOR THIS TYPE OF TEST
+### Tools
+ADD DETAILS HERE ON WHAT TOOLS WHERE USED TO BUILD AND EXECUTE THESE TESTS.
 
 ### Execution
 ```
-ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST
+ADD DETAILS HERE ON HOW TO EXECUTE THESE TESTS.
 ```
 
-## Automated System / Unit tests
+## Automated System / Unit tests.
 
-The automated system and unit tests ensure that small individual parts of the system perform the function they required to do. This type of test ofter 
+The automated system and unit tests ensure that the individual parts of the system perform correctly. This type of test oftern requires the mocking of other parts of the system and/or data.
 
 ### Coverage
 The full scope of all automated system and unit tests currently being executed can be found in the [UNIT_COVERAGE.md](UNIT_COVERAGE.md) file.
 
-### Scripts/Tools
-ADD DETAILS HERE ABOUT WHAT TOOLS ARE USED FOR THIS TYPE OF TEST
+### Tools
+ADD DETAILS HERE ON WHAT TOOLS WHERE USED TO BUILD AND EXECUTE THESE TESTS.
 
 ### Execution
 ```
-ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST
+ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST.
 ```
 
 
@@ -38,21 +40,21 @@ ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST
 ### Coverage
 The full scope of all automated behavior tests currently being executed can be found in the [BEHAVIOR_COVERAGE](BEHAVIOR_COVERAGE.md) file.
 
-### Scripts/Tools
-ADD DETAILS HERE ABOUT WHAT TOOLS ARE USED FOR THIS TYPE OF TEST
+### Tools
+ADD DETAILS HERE ON WHAT TOOLS WHERE USED TO BUILD AND EXECUTE THESE TESTS.
 
 ### Execution
 ```
-ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST
+ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST.
 ```
 
 ## Manual Testing
 
 ### Coverage
-ADD DETAILS HERE ON THE SCOPE AND COVERAGE OF THIS TYPE OF TEST
+ADD DETAILS HERE ON THE SCOPE AND COVERAGE OF THIS TYPE OF TEST.
 
 ### Applications
-ADD DETAILS HERE ABOUT WHAT TOOLS ARE USED FOR THIS TYPE OF TEST
+ADD DETAILS HERE ABOUT WHAT TOOLS ARE USED WITH THESE TESTS.
 
 ### Execution
-ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST
+ADD DETAILS HERE ON HOW TO EXECUTE THESE TESTS.
