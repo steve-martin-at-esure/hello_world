@@ -15,7 +15,7 @@ The status of each story is captured and displayed on a project team's Kanban bo
 
 To ensure that our coding practices support esure's Agile approach we have adopted a branching strategy based on **Git-Flow**, aligning the Git-Flow steps with a stories life cycle. It is recommended that you familiarize yourself with Git-Flow before proceeding.
 
-![Branching Strategy Image](/docs/imgs/DevFlow@1x.png "Digital Apps Branching Strategy")
+![Branching Strategy Image](/_docs/imgs/DevFlow@1x.png "Digital Apps Branching Strategy")
 
 This branching strategy uses GitHub as the communication hub for all developers. Developers work locally and push branches to the central repository.
 
