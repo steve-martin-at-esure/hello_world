@@ -2,9 +2,6 @@
 
 This is a private Git repository and only esure's Digital Apps team is permitted to change this Digital App. If you have any suggestions or if you find an issue then please contact the team. Please see [AUTHORS.md](AUTHORS.md) for details of the team.
 
-
-## The Agile Approach
-
 esure uses an Agile methodology to track all of its Digital App changes, with each change communicated as an 'Agile Story'. All stories within a Sprint must pass through the following 'life cycle' phases:
 
 | To Do | In Progress | Review | Complete |
