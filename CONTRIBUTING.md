@@ -1,5 +1,4 @@
 # How to contribute
-===================
 
 This is a private Git repository and only esure's Digital Apps team is permitted to change this Digital App. If you have any suggestions or if you find an issue then please contact the team. Please see AUTHORS.md for details of the team.
 
@@ -12,7 +11,6 @@ The status of each story is captured and displayed on a project team's Kanban bo
 
 
 ## Branching
-============
 
 To ensure that our coding practices support esure's Agile approach we have adopted a branching strategy based on **Git-Flow**, aligning the Git-Flow steps with a stories life cycle. It is recommended that you familiarize yourself with Git-Flow before proceeding.
 
@@ -72,9 +70,7 @@ Tag: increment `hotfix` number
 Branch naming convention: `hotfix-*`
 
 
-
 ## Tools
-========
 
 The following suite of tools has been used to develop this Digital App. It's recommended that all contributers use the same tools to help reduce formating conflicts.
 
