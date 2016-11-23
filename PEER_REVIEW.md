@@ -1,5 +1,4 @@
 # Peer Review Checklist
-=======================
 
 ## Requirements
 * The 'commit comment' should include the Feature / Story ID / Information.
