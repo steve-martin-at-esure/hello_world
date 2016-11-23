@@ -21,7 +21,7 @@ Add instructions here on how to install the software.
 Add instructions on how the user can access/start the Digital App
 ```
 
-## Contributing
+## Contributing to this Digital App
 Only esure's Digital Apps team is permitted to update this Digital App. If you have any suggestions or if you find an issue then please contact the team. Please see [AUTHORS.md](AUTHORS.md) for details of the team.
 For details on contributing best practices please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
