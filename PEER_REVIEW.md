@@ -43,9 +43,7 @@ iPhone 6s: Safari (latest version).
 * All of the automated tests have been successfully executed.
 
 ## Documentation
-* README.md reflects current application functionality
-* CHANGELOG.md lists all important changes this version of the software has introduced/changed. (Visit http://keepachangelog.com/ for help).
+* Each feature has a dedicated README.md file reflects its current functionality
 * Code is well commented, clearly describing its purpose.
-* Every function should have appropriate PHPDoc headings with information about what the function does, what parameters it accepts, and what it returns.
 * All documentation is written in good England. :)
 
