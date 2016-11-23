@@ -6,9 +6,16 @@ This is a private Git repository and only esure's Digital Apps team is permitted
 ## The Agile Approach
 
 esure uses an Agile methodology to track all of its Digital App changes, with each change communicated as an 'Agile Story'. All stories within a Sprint must pass through the following 'life cycle' phases:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 | To Do | In Progress | Review | Complete |
 |--- | --- | --- | --- |
 | Stories waiting to be started. | Stories currently being worked on by a team member. | Stories ready to be reviewed by another team member. | Stories considered complete. |
+
 The status of each story is captured and displayed on a project team's Kanban board.
 
 
