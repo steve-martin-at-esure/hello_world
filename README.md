@@ -32,3 +32,6 @@ Please visit the documentation [_docs/README.md](_docs/README.md) file from with
 
 ## Automated and Manual Tests
 The full suite of automated tests can be found via the [_tests/README.md](_tests/README.md) file from within the tests folder.
+
+## Source and Working files
+All of the source and working files used to build the code and assets required by the Digital App can be located at [_src/README.md](_stc/README.md)
