@@ -1,6 +1,6 @@
 # Testing
 
-This README.md file describes how this Digital App is being tested, outlining both automation scripts and manual tests.
+This README.md file describes how this Digital App is tested, outlining both automation scripts and manual tests.
 
 ## Automated Non-Functional Testing
 
