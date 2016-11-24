@@ -2,3 +2,8 @@
 
 This area of the repository is allocated to development source files and other working files that contribute to the maintance and development of this Digital App.
 This includes image files, development process scripts (such as Grunt files, etc), and other development resources.
+
+* Environment Setup Scripts
+* Build/Compile Process (Gulp)
+* Drupal Themes
+* Test Data Load Scripts
