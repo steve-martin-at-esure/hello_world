@@ -28,6 +28,7 @@
 ## Accessibility
 * The site is fully functional and correctly rendered on the following browsers and devices:
 Windows: Internet Explorer 11.
+Windows: Google Chrome (latest version).
 Mac: Safari (latest version).
 iPad Air: Safari (latest version).
 iPhone 5s: Safari (latest version).
