@@ -1,30 +1,20 @@
-<!--- Provide a general summary of the peer review item in the Title above -->
+* Environment Name: <!--- ADD NAME OF ENVIRONEMENT TESTED ON --->
+* Browser Name and version: <!--- ADD BROWSER USED --->
 
-## Context
-<!--- Provide a more detailed introduction to the item itself, and why you believe that the ocde should change -->
-
-## Expected Behavior
-<!--- Tell us what should happen -->
+## Location
+<!--- WHERE DID YOU SEE THE ISSUES -->
 
 ## Actual Behavior
-<!--- Tell us what happens instead -->
+<!--- DETAIL THE ISSUE EXPERIENCED -->
+
+## Expected Behavior
+<!--- EXPLAIN WHAT YOU EXPECTED TO SEE -->
 
 ## Possible Fix
-<!--- Not obligatory, but suggest a fix or reason for the bug -->
+<!--- NOT OBLIGATORY, BUT SUGGEST A FIX -->
 
 ## Steps to Reproduce
-<!--- Provide a link to a live example, or an unambiguous set of steps to -->
-<!--- reproduce this bug include code to reproduce, if relevant -->
 1.
 2.
 3.
 4.
-
-## Context
-<!--- How has this bug affected you? What were you trying to accomplish? -->
-
-## Your Environment
-<!--- Include as many relevant details about the environment you experienced the bug in -->
-* Version used:
-* Browser Name and version:
-* Link to your project:
