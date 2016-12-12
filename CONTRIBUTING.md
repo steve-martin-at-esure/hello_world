@@ -71,7 +71,7 @@ Tag: increment `hotfix` number
 Branch naming convention: `hotfix-*`
 
 
-## Tools
+## Recommended Tool Set
 
 The following suite of tools has been used to develop this Digital App. It's recommended that all contributers use the same tools to help reduce formating conflicts.
 
