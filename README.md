@@ -28,7 +28,7 @@ For details on contributing best practices please see the [CONTRIBUTING.md](CONT
 
 
 ## System Documentation
-Please visit the documentation [_docs/README.md](_docs/README.md) file from within the docs folder for a list of the Digital App's key features and system documentation.
+Most of the Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/). However an index of deployment, configuration and auto-generated source code documentation can be found in the [_docs/README.md](_docs/README.md) file located within the docs folder.
 
 
 ## Automated and Manual Tests
