@@ -1,10 +1,8 @@
 # Documentation
 
-## Systems Documentaton
+### Systems Documentaton
 
 Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/).
-
-## Engineering and Maintaince Documentation
 
 ### Deployment
 
