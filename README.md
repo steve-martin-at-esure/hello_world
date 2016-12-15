@@ -32,4 +32,4 @@ The source code for this Digital App is located below the [_src](_src/) folder.
 The full suite of automated tests can be found below the [_tests](_tests/) folder.
 
 ## Documentation
-Most of the Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/). However an index of engineering documentation required to run, develop and deploy this Digital App can be found in the [_docs/README.md](_docs/README.md) file located within the _docs folder.
+Most of the Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/). However an index of engineering documentation required to run, develop and deploy this Digital App can be found below the [_docs](_docs/)  folder.
