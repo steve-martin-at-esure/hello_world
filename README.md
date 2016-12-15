@@ -28,7 +28,7 @@ For details on contributing best practices please see the [CONTRIBUTING.md](CONT
 All source code for this Digital App is located below the [_src](_src/) folder.
 
 ## Automated and Manual Tests
-The full suite of automated tests can be found below the [_tests](_tests/) folder.
+The full suite of automated tests and instructions on how to execute them can be found below the [_tests](_tests/) folder.
 
 ## Systems Documentation
-Most of the Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/).
+All systems documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/).
