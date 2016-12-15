@@ -27,10 +27,10 @@ Only esure's Digital Apps team is permitted to update this Digital App. If you h
 For details on contributing best practices please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Source Code
-The source code for this Digital App is located below the _src folder.
+The source code for this Digital App is located below the [_src](_src/README.md) folder.
 
 ## Automated and Manual Tests
-The full suite of automated tests can be found via the [_tests/README.md](_tests/README.md) file from within the tests folder.
+The full suite of automated tests can be found below the [_tests](_tests/README.md) folder.
 
 ## Documentation
-Most of the Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/). However an index of engineering documentation required to run, develop and deploy this Digital App can be found in the [_docs/README.md](_docs/README.md) file located within the docs folder.
+Most of the Systems Documentation for this Digital App is located on [Confluence](https://myesure.atlassian.net/wiki/). However an index of engineering documentation required to run, develop and deploy this Digital App can be found in the [_docs/README.md](_docs/README.md) file located within the _docs folder.
