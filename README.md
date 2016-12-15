@@ -34,5 +34,3 @@ Most of the Systems Documentation for this Digital App is located on [Confluence
 ## Automated and Manual Tests
 The full suite of automated tests can be found via the [_tests/README.md](_tests/README.md) file from within the tests folder.
 
-## Build files
-An index of all the build files that contribute the development and maintenance of this Digital App can be located at [_build/README.md](_build/README.md)
