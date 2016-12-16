@@ -1,6 +1,9 @@
 # How to contribute
 
-This is a private Git repository and only esure's Digital Apps team is permitted to change this Digital App. If you have any suggestions or if you find an issue then please contact the team. Please see [AUTHORS.md](AUTHORS.md) for details of the team.
+This is a private Git repository and only members of esure's Digital Apps team are permitted to make changes to this Digital App. If you have any suggestions or you would like to report an issue then please contact the team. Contact details for the Digital Apps team can be found in the [AUTHORS.md](AUTHORS.md) file.
+
+
+## Each change is a 'Story'
 
 esure uses an Agile methodology to track all of its Digital App changes, with each change communicated as an 'Agile Story'. All stories within a Sprint must pass through the following 'life cycle' phases:
 
@@ -10,10 +13,11 @@ esure uses an Agile methodology to track all of its Digital App changes, with ea
 
 The status of each story is captured and displayed on a project team's Kanban board.
 
+Further information on the Agile process used within esure is located on [Confluence](https://myesure.atlassian.net/wiki/).
 
 ## Branching
 
-To ensure that our coding practices support esure's Agile approach we have adopted a branching strategy based on **Git-Flow**, aligning the Git-Flow steps with a stories life cycle. It is recommended that you familiarize yourself with Git-Flow before proceeding.
+The following branching strategy is based on **Git-Flow**, with a few aditional steps added to esure a contributor communicates the status of an Agile Story conistantly. It is recommended that you familiarize yourself with Git-Flow before proceeding.
 
 ![Branching Strategy Image](/_docs/imgs/DevFlow@1x.png "Digital Apps Branching Strategy")
 
@@ -25,13 +29,18 @@ Instead of a single master branch, our branching strategy uses two branches to r
 
 ### Feature (Story) Branches
 
-Each new Agile story should reside in its own feature branch, which can be pushed to the central repository for peer review/collaboration. But, instead of branching off of `master`, feature branches use develop as their parent branch. When a feature is complete, it gets merged back into `develop`. Features should never interact directly with `master`.
-
+When a new Agile story is assigned to a contributor a dedicated feature branch is required where all changes related to that story is developed. Ensuring that the changes related to that story remain 'self contained' and can be delivered independantly.
+At this point the story's status should be moved to 'in progress'.
+Note - Instead of branching off of `master`, feature branches use develop as their parent branch. Features should never interact directly with `master`.
 
 **Pull Requests and Peer Reviews**
 
-Before a feature is merged into `develop` a Pull Request should be opened allowing other developers and/or the technical team lead to review and approver the changes, with all issues and comments recorded on the GitHub platform. The [PEER_REVIEW.md](PEER_REVIEW.md) checklist should be used to help with this process.
-Please ensure that all automated coding standard tests have been successfully executed and the evidence is available before submitting a Pull Request. This will make the peer review process quicker.
+Before a story can be considered completed and merged back into `develop` a Peer Review is required. A Pull Request should be opened allowing other developers and/or the technical team lead to review and approver the changes, with all issues and comments recorded on the GitHub platform. The [PEER_REVIEW.md](PEER_REVIEW.md) checklist should be used to help with this process.
+Once a Pull request has been opened the story's status can be set to 'In Review'.
+Note - The `develop` branch should be configured to not accept Pull Requests until at least one other reviewer has approved it. 
+
+**Completing a Story**
+When all of the changes have been approved, the story is merged back into `develop` and the status of a story can be set to 'Complete'.
 
 **Best Practices**:
 
