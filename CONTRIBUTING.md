@@ -16,7 +16,7 @@ The status of each story is captured and displayed on a project team's Kanban bo
 
 ## Branching
 
-The following branching strategy is based on **Git-Flow**, with a few aditional steps added to esure a contributor communicates the status of an Agile Story conistantly. It is recommended that you familiarize yourself with Git-Flow before proceeding.
+The following branching strategy is based on **Git-Flow**, with a few additional steps added to esure a contributor communicates the status of an Agile Story constantly. It is recommended that you familiarize yourself with Git-Flow before proceeding.
 
 ![Branching Strategy Image](/_docs/imgs/DevFlow@1x.png "Digital Apps Branching Strategy")
 
@@ -28,15 +28,15 @@ Instead of a single master branch, our branching strategy uses two branches to r
 
 ### Using Feature Branches to start a Story
 
-When a new Agile story is assigned to a contributor a dedicated feature branch is required where all changes related to that story is developed. Ensuring that the changes related to that story remain 'self contained' and can be delivered independantly.
+When a new Agile story is assigned to a contributor a dedicated feature branch is required where all changes related to that story is developed. Ensuring that the changes related to that story remain 'self contained' and can be delivered independently.
 At this point the story's status should be moved to 'in progress'.
-> Note - Instead of branching off of `master`, feature branches use develop as their parent branch. Features should never interact directly with `master`.
+> Instead of branching off of `master`, feature branches use develop as their parent branch. Features should never interact directly with `master`.
 
 #### Pull Requests and Peer Reviews
 
 Before a story can be considered completed and merged back into `develop` a Peer Review is required. A Pull Request should be opened allowing other developers and/or the technical team lead to review and approver the changes, with all issues and comments recorded on the GitHub platform. The [PEER_REVIEW.md](PEER_REVIEW.md) checklist should be used to help with this process.
 Once a Pull request has been opened the story's status can be set to 'In Review'.
-> Note - The `develop` branch should be configured to not accept Pull Requests until at least one other reviewer has approved the change. 
+> The `develop` branch should be configured to not accept Pull Requests until at least one other reviewer has approved the change. 
 
 #### Completing a Story
 When all of the required changes have been approved, the story is merged back into `develop` and the status of a story can be set to 'Complete'.
@@ -70,16 +70,21 @@ This approach creates well-defined phases of development and release.
 
 “Hotfix” branches are used to quickly patch production releases. This is the only branch that should fork directly off of `master`. As soon as the fix is complete, it should be merged into both `master` and `develop` (or the current `release` branch), and `master` should be tagged with an updated version number.
 
-Hotfixes should still have an assigned story and should progress through the same stages as documented above.
+All Hotfix changes should still have an assigned story and should progress through the same stages as documented above.
 
 > This approach should only be considered for critical maintenance issues.
 
-**Best Practices:**
+##### Best Practices:
 
-May branch off: `master`
-Must merge back into: `master` and `develop`
-Tag: increment `hotfix` number
-Branch naming convention: `hotfix-*`
+* A Hotfix is branched from `master`.
+* Hotfix changes must be merged back into both `master` and `develop`.
+* 'master' should be tagged with an increment `hotfix` number.
+* Branch naming convention: `hotfix-*`
+
+
+## Continuous Delivery and Automated Work-flow
+
+[Add details here on any Continuous Delivery and/or Automated Work-flow processes used by this Digital App]
 
 
 ## Recommended Tool Set
@@ -89,7 +94,7 @@ The following suite of tools has been used to develop this Digital App. It's rec
 * Project Management: [JIRA](https://myesure.atlassian.com/), 
 * Project Documentation: [Confluence](https://myesure.atlassian.com/), 
 * Graphical: [Sketch](https://www.sketchapp.com),
-* Development:
-* Testing:
+* Development: TBD
+* Testing: TBD
 
 
