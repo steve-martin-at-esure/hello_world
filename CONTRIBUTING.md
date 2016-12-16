@@ -13,7 +13,6 @@ esure uses an Agile methodology to track all of its Digital App changes, with ea
 
 The status of each story is captured and displayed on a project team's Kanban board.
 
-Further information on the Agile process used within esure is located on [Confluence](https://myesure.atlassian.net/wiki/).
 
 ## Branching
 
@@ -31,7 +30,7 @@ Instead of a single master branch, our branching strategy uses two branches to r
 
 When a new Agile story is assigned to a contributor a dedicated feature branch is required where all changes related to that story is developed. Ensuring that the changes related to that story remain 'self contained' and can be delivered independantly.
 At this point the story's status should be moved to 'in progress'.
-Note - Instead of branching off of `master`, feature branches use develop as their parent branch. Features should never interact directly with `master`.
+> Note - Instead of branching off of `master`, feature branches use develop as their parent branch. Features should never interact directly with `master`.
 
 **Pull Requests and Peer Reviews**
 
