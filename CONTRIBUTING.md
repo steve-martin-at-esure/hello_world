@@ -16,11 +16,10 @@ The status of each story is captured and displayed on a project team's Kanban bo
 
 ## Branching
 
-The following branching strategy is based on **Git-Flow**, with a few additional steps added to esure a contributor communicates the status of an Agile Story constantly. It is recommended that you familiarize yourself with Git-Flow before proceeding.
+The branching strategy used by the Digital Apps team is **Git-Flow**, however the following instructions outline a few additional steps added to help ensure all contributors communicate the status of their progress constantly. It is recommended that you familiarize yourself with Git-Flow before proceeding, [try this resource](http://nvie.com/posts/a-successful-git-branching-model/)
 
 ![Branching Strategy Image](/_docs/imgs/DevFlow@1x.png "Digital Apps Branching Strategy")
 
-This branching strategy uses GitHub as the communication hub for all developers. Developers work locally and push branches to the central repository.
 
 ### Historical Branches
 
@@ -30,45 +29,47 @@ Instead of a single master branch, our branching strategy uses two branches to r
 
 When a new Agile story is assigned to a contributor a dedicated feature branch is required where all changes related to that story is developed. Ensuring that the changes related to that story remain 'self contained' and can be delivered independently.
 At this point the story's status should be moved to 'in progress'.
-> Instead of branching off of `master`, feature branches use develop as their parent branch. Features should never interact directly with `master`.
+> Instead of branching off of `master`, feature branches use `develop` as their parent branch. Features should never interact directly with `master`.
 
 #### Pull Requests and Peer Reviews
 
-Before a story can be considered completed and merged back into `develop` a Peer Review is required. A Pull Request should be opened allowing other developers and/or the technical team lead to review and approver the changes, with all issues and comments recorded on the GitHub platform. The [PEER_REVIEW.md](PEER_REVIEW.md) checklist should be used to help with this process.
+Before a story can be considered complete and merged back into `develop` a Peer Review is required. To initate a Peer Review a Pull Request should be opened allowing other developers and/or the technical team lead to review and approver the changes. All issues and comments should be recorded as comments on the GitHub platform.
+The [PEER_REVIEW.md](PEER_REVIEW.md) checklist should be used to help with this process.
 Once a Pull request has been opened the story's status can be set to 'In Review'.
 > The `develop` branch should be configured to not accept Pull Requests until at least one other reviewer has approved the change. 
 
 #### Completing a Story
-When all of the required changes have been approved, the story is merged back into `develop` and the status of a story can be set to 'Complete'.
+
+When all of the changes have been approved, the story is merged back into `develop` and the status of a story can be set to 'Complete'.
 
 ##### Best Practices:
 
-* Features are only branches from `develop`.
-* The Branch comments include evidence of peer review sign off from the Peer Reviewer.
-* Only completed features are merged back into `develop`.
+* `feature` can be only branched from `develop`.
+* The peer review comments include evidence of approval and sign off.
+* Only fully functional and complete features should be merged back into `develop`.
 * Branch naming convention: anything except `master`, `develop`, `release-*`, or `hotfix-*`.
 
-### Preparing Releases with Release Branches
+### Preparing for a Release with a Release Branch
 
-Once `develop` has acquired enough features for a release (or a scheduled Sprint release date is approaching), the technical lead will then fork a release branch off of `develop`.
+Once `develop` has acquired enough features for a release (or a scheduled Sprint release date is approaching), the technical lead will fork a new release branch off of `develop`.
 
 Creating this branch starts the next release cycle, so no new features can be added after this point.
 > Only bug fixes, documentation generation, and other release-oriented tasks should go in this branch.
 
-Once the release is ready to go into production, the release branch is merged into `master` and tagged with a appropriate version number. In addition, the release should also be merged back into `develop`, which may have progressed since the release was initiated.
+Once the release is ready to go into production, the release branch is merged into `master` and tagged with an appropriate version number. In addition, the release should also be merged back into `develop`, which may have progressed since the release was initiated.
 
 This approach creates well-defined phases of development and release.
 
 ##### Best Practices:
 
-* A Release branch can only be branched from `develop`.
-* Must merge back into: `develop` and `master`.
-* Tag: increment `major` or `minor` number.
+* 'release' can only be branched from `develop`.
+* 'release' must be merged back into `develop` and `master`.
+* 'release' (and eventually 'master') should be tagged with a major version increment, e.g. 6.0 or 7.0.
 * Branch naming convention: `release-*`.
 
-### Hotfix Branches
+### Implementing a Hotfix
 
-“Hotfix” branches are used to quickly patch production releases. This is the only branch that should fork directly off of `master`. As soon as the fix is complete, it should be merged into both `master` and `develop` (or the current `release` branch), and `master` should be tagged with an updated version number.
+'hotfix' is used to quickly patch production releases. This is the only branch that should fork directly off of `master`. As soon as the fix is complete, it should be merged into both `master` and `develop` (or the current `release` branch), and `master` should be tagged with an updated version number.
 
 All Hotfix changes should still have an assigned story and should progress through the same stages as documented above.
 
@@ -76,15 +77,15 @@ All Hotfix changes should still have an assigned story and should progress throu
 
 ##### Best Practices:
 
-* A Hotfix is branched from `master`.
-* Hotfix changes must be merged back into both `master` and `develop`.
-* 'master' should be tagged with an increment `hotfix` number.
+* 'hotfix' can only be branched from `master`.
+* 'hotfix' must be merged back into both `master` and `develop`.
+* 'master' should be tagged with a minor version increment, e.g. 0.2 or 0.3.
 * Branch naming convention: `hotfix-*`
 
 
 ## Continuous Delivery and Automated Work-flow
 
-[Add details here on any Continuous Delivery and/or Automated Work-flow processes used by this Digital App]
+> This Section is coming soon, and will contain the details of the Continuous Delivery and/or Automated Work-flow processes used by this Digital App.
 
 
 ## Recommended Tool Set
@@ -94,7 +95,7 @@ The following suite of tools has been used to develop this Digital App. It's rec
 * Project Management: [JIRA](https://myesure.atlassian.com/), 
 * Project Documentation: [Confluence](https://myesure.atlassian.com/), 
 * Graphical: [Sketch](https://www.sketchapp.com),
-* Development: TBD
-* Testing: TBD
+* Development IDE: [Sublime](https://www.sublimetext.com),
+* Testing: TBD,
 
 

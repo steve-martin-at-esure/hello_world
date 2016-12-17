@@ -24,7 +24,7 @@ ADD DETAILS HERE ON HOW TO EXECUTE THESE TESTS.
 The automated system and unit tests ensure that the individual parts of the system perform correctly. This type of test oftern requires the mocking of other parts of the system and/or data.
 
 ### Coverage
-The full scope of all automated system and unit tests currently being executed can be found in the [UNIT_COVERAGE.md](UNIT_COVERAGE.md) file.
+The full scope of all automated system and unit tests currently being executed can be found in the [UNIT_TEST_COVERAGE.md](UNIT_TEST_COVERAGE.md) file.
 
 ### Tools
 ADD DETAILS HERE ON WHAT TOOLS WHERE USED TO BUILD AND EXECUTE THESE TESTS.
@@ -35,10 +35,10 @@ ADD DETAILS HERE ON HOW TO EXECUTE THIS TYPE OF TEST.
 ```
 
 
-## Automated Behavior Tests
+## Automated Functional and Behavior Tests
 
 ### Coverage
-The full scope of all automated behavior tests currently being executed can be found in the [BEHAVIOR_COVERAGE](BEHAVIOR_COVERAGE.md) file.
+The full scope of all automated behavior tests currently being executed can be found in the [FUNCTIONAL_TEST_COVERAGE](FUNCTIONAL_TEST_COVERAGE.md) file.
 
 ### Tools
 ADD DETAILS HERE ON WHAT TOOLS WHERE USED TO BUILD AND EXECUTE THESE TESTS.
