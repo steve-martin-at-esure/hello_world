@@ -1,0 +1,28 @@
+drupal:
+    image: drupal:8
+    volumes_from:
+        - storage-drupal
+    links:
+        - "db:mysql"
+    ports:
+        - "127.0.0.1:8082:80"
+db:
+    image: mysql:5.5
+    volumes_from:
+        - storage-mysql
+    environment:
+        - MYSQL_USER=someuser
+        - MYSQL_PASSWORD=thispasswordsucks
+        - MYSQL_DATABASE=somedb
+        - MYSQL_ROOT_PASSWORD=thispasswordsuckstoo
+storage-drupal:
+    image: drupal:8
+    volumes:
+        - /var/www/html/modules
+        - /var/www/html/profiles
+        - /var/www/html/themes
+        - /var/www/html/sites
+storage-mysql:
+    image: mysql
+    volumes:
+        - /var/lib/mysql
