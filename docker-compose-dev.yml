@@ -1,0 +1,26 @@
+# Compose file for the demo server
+
+version: '2'
+services:
+  web:
+    build: docker/drupal
+    ports:
+     - 80:80
+    links:
+     - db
+    environment:
+     - ENVIRONMENT=DEV
+     - DRUPAL_INSTALL=TRUE
+  db:
+    image: mysql:5.5
+    environment:
+     - MYSQL_ROOT_PASSWORD=docker
+     - MYSQL_DATABASE=drupal
+     - MYSQL_USER=drupal
+     - MYSQL_PASSWORD=drupalpw
+    volumes:
+     - data:/var/lib/mysql
+volumes:
+
+  data: {}
+
